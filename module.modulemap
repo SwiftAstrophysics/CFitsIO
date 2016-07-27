@@ -1,0 +1,5 @@
+module CFitsIO [system] {
+  header "/usr/local/include/fitsio.h"
+  link "fitsio"
+  export *
+}
