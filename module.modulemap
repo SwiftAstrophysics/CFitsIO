@@ -1,4 +1,4 @@
-module CFitsIO [system] {
+module CFITSIO [system] {
   header "/usr/local/include/fitsio.h"
   link "fitsio"
   export *
