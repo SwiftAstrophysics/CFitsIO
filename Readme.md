@@ -1,4 +1,4 @@
-CFITSIO
+CFitsIO
 =======
 
 This package allows Swift programs to import the [cfitsio](http://heasarc.gsfc.nasa.gov/docs/software/fitsio/fitsio.html) library. 
@@ -14,7 +14,7 @@ Currently SPM does not add the necessary build settings when generating the Xcod
 Add the location of the cfitsio library to the library search paths. For example, if the library is installed via homebrew: `"/usr/local/Cellar/cfitsio/<cfitsio version>/lib"`
 
 **Swift Compiler/Search Paths/Import Paths:**
-Add the location of the module map for cfitsio: `${SRCROOT}/Packages/CFITSIO-<CFITSIO version>`
+Add the location of the module map for cfitsio: `${SRCROOT}/Packages/CFitsIO-<CFitsIO version>`
 
 
 MacOS Installation Instructions
