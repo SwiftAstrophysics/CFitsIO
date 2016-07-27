@@ -5,6 +5,18 @@ This package allows Swift programs to import the [cfitsio](http://heasarc.gsfc.n
 
 In order for Swift to be able to import the library, it must be installed on the system.
 
+Note on Using Xcode
+-------------------
+
+Currently SPM does not add the necessary build settings when generating the Xcode project. To fix building in Xcode add the following to the build settings:
+
+**Search Paths/Library Search Paths:**
+Add the location of the cfitsio library to the library search paths. For example, if the library is installed via homebrew: `"/usr/local/Cellar/cfitsio/3.370/lib"`
+
+**Swift Compiler/Search Paths/Import Paths:**
+Add the location of the module map for cfitsio: `${SRCROOT}/Packages/CFitsIO-1.0.0`
+
+
 MacOS Installation Instructions
 -------------------------------
 
