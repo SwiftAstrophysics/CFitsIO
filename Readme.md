@@ -8,7 +8,7 @@ In order for Swift to be able to import the library, it must be installed on the
 Note on Using Xcode
 -------------------
 
-Currently SPM does not add the necessary build settings when generating the Xcode project. To fix building in Xcode add the following to the build settings:
+Currently SPM does not add the necessary build settings when generating the Xcode project. To fix building in Xcode add the following to the build settings for the FitsIO library:
 
 **Search Paths/Library Search Paths:**
 Add the location of the cfitsio library to the library search paths. For example, if the library is installed via homebrew: `"/usr/local/Cellar/cfitsio/<cfitsio version>/lib"`
