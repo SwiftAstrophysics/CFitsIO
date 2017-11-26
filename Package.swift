@@ -4,7 +4,7 @@ let package = Package(
     name: "CFitsIO",
     pkgConfig: "fitsio",
     providers: [
-        .brew(["cfitsio"]),
-        .apt(["cfitsio"])
+        .Brew(["cfitsio"]),
+        .Apt(["cfitsio"])
     ]
 )
