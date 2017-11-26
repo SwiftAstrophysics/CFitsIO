@@ -1,5 +1,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "CFitsIO"
+    name: "CFitsIO",
+    pkgConfig: "fitsio",
+    providers: [
+        .brew(["cfitsio"]),
+        .apt(["cfitsio"])
+    ]
 )
